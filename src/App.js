@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import "../node_modules/@fortawesome/fontawesome-pro/js/all.js"
 import './App.css';
 
 import About from './components/about';
