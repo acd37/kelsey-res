@@ -8,13 +8,13 @@ const styles={
     fontSize: "30px",
     fontFamily: "Roboto Condensed",
     lineHeight: "34px",
-    color: "rgb(51, 119, 204)",
+    color: "rgb(128,11,73)",
     fontWeight: "300"
   },
   h3:{
     fontSize: "16px",
     lineHeight: "23px",
-    color: "rgb(94, 149, 22)",
+    color: "rgb(51, 119, 204)",
     fontWeight: "700"
   },
   h4:{
@@ -24,8 +24,9 @@ const styles={
     fontWeight: "700"
   },
   p:{
-    fontSize: "16px",
-    lineHeight: "21px",
+    marginLeft: "10px",
+    fontSize: "14px",
+    lineHeight: "14px",
     color: "rgb(80, 85, 92)",
     fontWeight: "400"
   }
@@ -34,11 +35,14 @@ const styles={
 const Text = props => (
 
   <Fragment>
-    <div style={styles.text}>
+    <div data-aos="fade-left" style={styles.text}>
       <h2 style={styles.h2}> {props.title} </h2>
       <h3 style={styles.h3}> {props.where} </h3>
       <h4 style={styles.h4}> {props.location} </h4>
-      <p style={styles.p}> {props.description} </p>
+      <p style={styles.p}> {props.description1} </p>
+      <p style={styles.p}> {props.description2} </p>
+      <p style={styles.p}> {props.description3} </p>
+      <p style={styles.p}> {props.description4} </p>
     </div>
   </Fragment>
 );

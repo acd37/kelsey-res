@@ -6,7 +6,7 @@ const styles = {
     fill: '#fff'
   },
   background: {
-    backgroundColor: '#6c5ce7',
+    backgroundColor: 'rgb(128,11,73)',
     color: '#fff'
   },
   h1: {

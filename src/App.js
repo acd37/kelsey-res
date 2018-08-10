@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from 'react';
-import logo from './logo.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import "../node_modules/@fortawesome/fontawesome-pro/js/all.js"
 import './App.css';
 
 import About from './components/about';
@@ -9,7 +11,15 @@ import Experience from './components/experience';
 import Header from './components/header';
 import Portfolio from './components/portfolio'
 
+
+
 class App extends Component {
+
+  componentDidMount() {
+    AOS.init();
+  }
+
+
   render() {
     return (
       <div className="App">

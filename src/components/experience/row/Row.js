@@ -18,14 +18,10 @@ const Row = props => (
     <div className="container">
       <div className="row" style={styles.row}>
         <div className="col">
-          <Card />
+          <Card img={props.img} />
         </div>
         <div className="col">
-          <Text
-            title={props.title}
-            where={props.where}
-            location={props.location}
-            description={props.description} />
+          <Text { ...props } />
         </div>
       </div>
     </div>

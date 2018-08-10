@@ -7,7 +7,7 @@ const styles = {
     padding: '30px'
   },
   background: {
-    backgroundColor: '#6c5ce7',
+    backgroundColor: 'rgb(128,11,73)',
     color: '#fff'
   }
 }

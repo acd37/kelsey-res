@@ -4,8 +4,8 @@ const styles={
   image: {
     border: "1px solid #eee",
     borderRadius: "30px",
-    maxHeight: "250px",
-    maxWidth: "300px",
+    height: "250px",
+    width: "300px",
     marginRight: "30px"
   },
   card: {
@@ -20,8 +20,8 @@ class Card extends Component {
     return(
 
       <Fragment>
-        <div style={styles.card}>
-          <img style={styles.image} src="https://via.placeholder.com/300x250" />
+        <div data-aos="fade-right" style={styles.card}>
+          <img style={styles.image} src={this.props.img} />
         </div>
       </Fragment>
     )
