@@ -7,7 +7,9 @@ const styles = {
     padding: '30px'
   },
   background: {
-    backgroundColor: 'rgb(128,11,73)',
+    background: "rgb(14,177,246)",
+    background: "-webkit-linear-gradient(to left, rgb(238, 0, 118), rgb(173,40,239), rgb(14,177,246)",
+    background: "linear-gradient(-20deg, rgb(238, 0, 118), rgb(173,40,239), rgb(14,177,246))",
     color: '#fff'
   }
 }

@@ -3,7 +3,7 @@ import React, {Component, Fragment} from "react";
 const styles={
   image: {
     border: "1px solid #eee",
-    borderRadius: "30px",
+    borderRadius: "20px",
     height: "250px",
     width: "300px",
     marginRight: "30px"

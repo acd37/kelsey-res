@@ -8,13 +8,13 @@ const styles={
     fontSize: "30px",
     fontFamily: "Roboto Condensed",
     lineHeight: "34px",
-    color: "rgb(128,11,73)",
+    color: "rgb(173,40,239)",
     fontWeight: "300"
   },
   h3:{
     fontSize: "16px",
     lineHeight: "23px",
-    color: "rgb(51, 119, 204)",
+    color: "rgb(14,177,246)",
     fontWeight: "700"
   },
   h4:{

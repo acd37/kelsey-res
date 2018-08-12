@@ -8,7 +8,8 @@ const styles = {
   h1: {
     fontSize: '5.5rem',
     fontWeight: '400',
-    padding: '30px 0'
+    padding: '30px 0',
+    color: 'rgb(173,40,239)'
   }
 }
 

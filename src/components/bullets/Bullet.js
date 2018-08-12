@@ -20,7 +20,7 @@ class Bullet extends Component {
     return(
 
       <Fragment>
-          <div data-aos="zoom-out-right" data-aos-duration="1500" data-aos-easing="linear" style={styles.bullet}></div>
+          <div data-aos="fade-up" data-aos-easing="linear" style={styles.bullet}></div>
       </Fragment>
     )
 

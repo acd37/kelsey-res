@@ -5,7 +5,7 @@ const styles = {
     fontSize: '5.5rem',
     fontWeight: '400',
     padding: '30px 0',
-    color: ""
+    color: "rgb(173,40,239)"
   },
   background: {
     backgroundColor: "#f6f6f6",
