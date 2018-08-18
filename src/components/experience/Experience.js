@@ -7,7 +7,7 @@ import oxford from "../../images/oxford.png";
 const styles = {
   h1: {
     fontSize: '5.5rem',
-    fontWeight: '400',
+    fontWeight: '300',
     padding: '30px 0',
     color: 'rgb(173,40,239)'
   }

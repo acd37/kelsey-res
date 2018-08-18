@@ -6,7 +6,7 @@ const styles={
   },
   h2:{
     fontSize: "30px",
-    fontFamily: "Roboto Condensed",
+    fontFamily: "Open Sans",
     lineHeight: "34px",
     color: "rgb(173,40,239)",
     fontWeight: "300"

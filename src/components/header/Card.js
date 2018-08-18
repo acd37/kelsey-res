@@ -23,7 +23,7 @@ const styles={
   },
   img: {
     marginBottom: "30px",
-    marginTop: "30px"
+    marginTop: "30px",
   }
 }
 
@@ -34,7 +34,7 @@ class Card extends Component {
     return(
 
       <Fragment>
-          <div style={styles.card}>
+          <div data-aos-duration={this.props.duration} data-aos={this.props.animation} data-aos-delay={this.props.delay} style={styles.card}>
             <img style={styles.img} src={this.props.image} />
             <h2 style={styles.h2}>{this.props.title}</h2>
             <p style={styles.p}>{this.props.text}</p>

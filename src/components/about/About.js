@@ -9,11 +9,11 @@ const styles = {
   },
   background: {
     backgroundColor: "#f6f6f6",
-    padding: "30px 0"
+    padding: "100px 0"
   },
   p: {
-    fontSize: "24px",
-    fontFamily: "Roboto Condensed",
+    fontSize: "28px",
+    fontFamily: "Open Sans",
     fontWeight: "300"
   }
 }
@@ -22,10 +22,9 @@ const About = () => (
 
   <Fragment>
     <div style={styles.background}>
-      <h1 style={styles.h1}>About</h1>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-12">
+          <div className="col-lg-10 offset-lg-1">
             <p style={styles.p}>
               Highly motivated marketing professional with a track record of capturing millions of social media hits as well as coveted top-tier digital media
               coverage—generating thousands of leads in the form of direct site referrals. I’m a digital native dedicated to re-imagining storytelling. I translate
