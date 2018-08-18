@@ -37,7 +37,7 @@ const Connect = () => (
             <a style={styles.connectIcon} href="https://www.linkedin.com/in/kelseydown/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
           </div>
           <div className="col">
-            <a style={styles.connectIcon} href="mailto:k.louisedown@gmail.com" target="_blank"><i className="far fa-at"></i></a>
+            <a style={styles.connectIcon} href="mailto:k.louisedown@gmail.com" target="_blank"><i className="far fa-envelope"></i></a>
           </div>
         </div>
       </div>
