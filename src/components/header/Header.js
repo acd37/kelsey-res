@@ -41,9 +41,9 @@ const Header = () => (
     </div>
     <div style={styles.holder}>
       <Card animation="fade-up" duration="1000" delay="100" image={search} title="Content." text="I have an established track record of content creation that has reached millions of individuals globally."/>
-      <Card animation="fade-up" duration="1000" delay="300"image={worldwide} title="Outreach." text="I have created and promoted digital content for a variety of big-name brands."/>
-      <Card animation="fade-up" duration="1000" delay="500"image={reward} title="Self-motivated." text="I am intrinsically motivated by the work I do for the awesome companies I have worked with."/>
-      <Card animation="fade-up" duration="1000" delay="700"image={coding} title="Marketing." text="I am versed in both traditional marketing methods as well as contemporary digital marketing strategies."/>
+      <Card animation="fade-up" duration="1000" delay="300" image={worldwide} title="Outreach." text="I have created and promoted digital content for a variety of big-name brands."/>
+      <Card animation="fade-up" duration="1000" delay="500" image={reward} title="Self-motivated." text="I am intrinsically motivated by the work I do for the awesome companies I have worked with."/>
+      <Card animation="fade-up" duration="1000" delay="700" image={coding} title="Marketing." text="I am versed in both traditional marketing methods as well as contemporary digital marketing strategies."/>
     </div>
 
   </Fragment>
