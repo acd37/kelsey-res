@@ -3,6 +3,9 @@ import Row from "./row";
 import clearlink from "../../images/clearlink.jpg";
 import deseret from "../../images/ddm.png";
 import oxford from "../../images/oxford.png";
+import byu from "../../images/byu.png";
+import cedar from "../../images/cedar.jpg";
+import freelance from "../../images/freelance.jpeg";
 
 const styles = {
 	h1: {
@@ -10,50 +13,86 @@ const styles = {
 		fontWeight: "300",
 		padding: "30px 0",
 		color: "rgb(173,40,239)"
-	},
-	background: {
-		padding: "100px 0"
 	}
 };
 
 const Experience = () => (
 	<Fragment>
-		<div style={styles.background}>
-			<h1 style={styles.h1}>Experience</h1>
+		<h1 style={styles.h1}>Experience</h1>
 
-			<Row
-				img={clearlink}
-				title="Digital PR & Outreach Specialist"
-				where="Clearlink, Inc"
-				location="Salt Lake City, UT"
-				description1="Secured brand mentions on Reader’s Digest, HowStuffWorks, HealthyWay & GlassDoor"
-				description2="Perform outreach to website owners, bloggers, journalists, contributor networks, major media outlets, and influencers"
-				description3="Pitch and place guest content with top-tier publications via networking and relationship building"
-				description4="Improve site rankings and increase brand awareness through outreach and digital PR practices"
-			/>
+		<Row
+			img={clearlink}
+			title="Digital PR & Outreach Specialist"
+			where="Clearlink, Inc"
+			when="May 2017 - PRESENT"
+			location="Salt Lake City, UT"
+			description1="Create and promote digital content for various brands."
+			description2="Build links to target pages from high-authority sites."
+			description3="Curate highly targeted outreach lists and foster media relationships."
+			description4="Secured brand mentions on Reader’s Digest & HowStuffWorks."
+		/>
 
-			<Row
-				img={deseret}
-				title="Story Lab Manager"
-				where="Deseret Digital Media"
-				location="Salt Lake City, UT"
-				description1="Increased contributor articles 30% in one quarter"
-				description2="Boosted Facebook page likes by 27% using original memes"
-				description3="Developed video strategy that garnered 67.2 million hits in 3 months"
-				description4="Managed worldwide network of more than 6,000 writers"
-			/>
+		<Row
+			img={freelance}
+			title="Writer, Editor & Book Reviewer"
+			where="Freelance"
+			when="Jun 2014 - PRESENT"
+			location="Salt Lake City, UT"
+			description1="Collaborate with clients, editors, and authors to evaluate needs."
+			description2="Complete developmental and copy edits."
+			description3="Read books and write reviews."
+			description4="Pitch online editors and write articles for digital publications."
+		/>
 
-			<Row
-				img={oxford}
-				title="Oxford University"
-				where="Oxford University, England"
-				location=""
-				description1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum, mi vitae feugiat portar"
-				description2="Quisque porttitor pretium mauris, a dignissim eros dictum nec. Vivamus commodo semper hendrerit."
-				description3="Aenean risus odio, sodales nec commodo quis, lobortis gravida lorem"
-				description4="Suspendisse posuere efficitur elit, nec ultrices leo varius eget. Aenean dapibus ultricies pulvinar"
-			/>
-		</div>
+		<Row
+			img={deseret}
+			title="Community Manager"
+			where="Deseret Digital Media"
+			when="Jan 2016 - May 2017"
+			location="Salt Lake City, UT"
+			description1="Managed worldwide network of more than 6,000 writers."
+			description2="Reviewed & edited article submissions, and worked closely with writers to hone skills."
+			description3="Produced email newsletter to engage contributors (boosted activity rate 30% in one quarter)."
+			description4="Developed video strategy that garnered 67.2 million hits in 3 months. "
+		/>
+
+		<Row
+			img={byu}
+			title="Department Editor"
+			where="BYU Women’s Services & Resources"
+			when="May 2014 - Oct 2014"
+			location="Provo, Utah"
+			description1="Launched new editorial position. "
+			description2="Designed a style guide for a more cohesive and uniform online brand."
+			description3="Edited magazine articles, digital content & other media."
+		/>
+
+		<Row
+			img={cedar}
+			title="Acquisitions Editorial Intern"
+			where="Cedar Fort Publishing "
+			when="May 2013 - Aug 2013"
+			location="Springville, Utah"
+			description1="Read and evaluated manuscript submissions."
+			description2="Wrote marketing copy and cover blurbs, and completed substantive edits in a timely manner."
+		/>
+
+		<Row
+			img={oxford}
+			title="Certificate of Studies, Creative Writing"
+			where="Oxford University"
+			when="Jul 2014 - Aug 2014"
+			location="Oxford, England"
+		/>
+
+		<Row
+			img={byu}
+			title="Bachelor of Arts, English"
+			where="Brigham Young University"
+			when="Aug 2010 - Dec 2015"
+			location="Provo, Utah"
+			description1="Emphasis in Editing"
+		/>
 	</Fragment>
 );
 
